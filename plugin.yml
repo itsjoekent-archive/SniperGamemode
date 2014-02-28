@@ -1,0 +1,7 @@
+name: SniperGamemode
+main: com.joe_kent.gamemode.Gamemode
+version: 1.0
+commands:
+   start:
+      description: Starts the game
+      usage: /<command>
