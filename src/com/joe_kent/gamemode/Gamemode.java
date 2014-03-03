@@ -18,10 +18,15 @@ public class Gamemode extends JavaPlugin implements CommandExecutor {
      */
     private Game game;
 
+    private WeatherHandler weatherHandler;
+
     @Override
     public void onEnable(){
         getCommand("start").setExecutor(this);
         this.saveDefaultConfig();
+        weatherHandler = new WeatherHandler();
+        getServer().getPluginManager().registerEvents(weatherHandler, this);
+        weatherHandler.setWeather(this);
     }
 
     @Override

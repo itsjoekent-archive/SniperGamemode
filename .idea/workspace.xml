@@ -10,15 +10,16 @@
     <ignored path="SniperGamemode.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../ZombieGamemode/.idea/workspace.xml" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393185324530" ignored="false" />
-    <file path="/Gamemode.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393545940634" ignored="false" />
+    <file path="/Gamemode.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393697570524" ignored="false" />
     <file path="/plugin.yml" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393191011500" ignored="false" />
     <file path="/CombatListener.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393546614750" ignored="false" />
-    <file path="/Sniper.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393546572132" ignored="false" />
+    <file path="/Sniper.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393697950192" ignored="false" />
     <file path="/Hunter.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393546150595" ignored="false" />
-    <file path="/Game.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393545812907" ignored="false" />
+    <file path="/Game.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393697909567" ignored="false" />
     <file path="/fragment.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393190901193" ignored="false" />
     <file path="/Utils.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393546744092" ignored="false" />
     <file path="/config.yml" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393539341024" ignored="false" />
+    <file path="/WeatherHandler.java" changelist="8d08ecbf-f273-4948-9348-a9706e6d9ed8" time="1393698440917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +81,28 @@
       <file leaf-file-name="Gamemode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="30" column="27" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="42" selection-start="1727" selection-end="1727" vertical-scroll-proportion="1.1829134">
+            <state line="151" column="32" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/WeatherHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="216" selection-start="458" selection-end="458" vertical-scroll-proportion="0.37777779">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +119,7 @@
       <file leaf-file-name="CombatListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/CombatListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="63" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="29" column="34" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,12 +128,8 @@
       <file leaf-file-name="Sniper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="29" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1166#1180#0" expanded="true" />
-                <element signature="e#3640#3855#0" expanded="true" />
-                <element signature="e#3844#3845#0" expanded="true" />
-              </folding>
+            <state line="78" column="57" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,9 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="50" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1014#1021#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,12 +165,13 @@
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/LineOfSightUtils.java" />
         <option value="$PROJECT_DIR$/config.yml" />
-        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java" />
         <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Hunter.java" />
-        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java" />
         <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/CombatListener.java" />
         <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Utils.java" />
+        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java" />
+        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java" />
+        <option value="$PROJECT_DIR$/src/com/joe_kent/gamemode/WeatherHandler.java" />
       </list>
     </option>
   </component>
@@ -202,6 +207,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,8 +247,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,15 +399,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="323" selection-end="325" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
@@ -427,11 +423,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="61" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1166#1180#0" expanded="true" />
-            <element signature="e#3640#3855#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -463,25 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ZombieGamemode/src/me/joekent/zombiegame/ZombieGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="1039" selection-end="1064" vertical-scroll-proportion="0.24096386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/CombatListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="29" column="8" selection-start="1039" selection-end="1064" vertical-scroll-proportion="0.24096386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Hunter.java">
@@ -491,30 +465,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="29" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1166#1180#0" expanded="true" />
-            <element signature="e#3640#3855#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="50" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1014#1021#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/CombatListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="34" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Sniper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="57" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="42" selection-start="1727" selection-end="1727" vertical-scroll-proportion="1.1829134">
+        <state line="151" column="32" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/Gamemode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joe_kent/gamemode/WeatherHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="216" selection-start="458" selection-end="458" vertical-scroll-proportion="0.37777779">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

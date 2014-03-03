@@ -45,7 +45,7 @@ public class Sniper {
     /**
      * Fires the snipers rifle. Kills all targets in it's line of sight within
      * a range of 150 blocks or when the bullet collides with a block.
-     * Automatically reloads the rifle.
+     * Automatically reloads the rifle if the game is still playing.
      */
     public void fire(){
         List<LivingEntity> entities = new ArrayList<LivingEntity>(player.getWorld().getLivingEntities());
@@ -68,7 +68,9 @@ public class Sniper {
         }
         player.getLocation().getWorld().playSound(player.getEyeLocation(), Sound.EXPLODE, 10.0f, 0.5f);
         player.getEyeLocation().getWorld().playEffect(player.getEyeLocation(), Effect.SMOKE, 1);
-        reload();
+        if(plugin.getGame().isPlaying()){
+            reload();
+        }
     }
 
     /**
